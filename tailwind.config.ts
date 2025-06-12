@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,10 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// SNIT Brand Colors
+				'snit-teal': 'hsl(var(--snit-teal))',
+				'snit-orange': 'hsl(var(--snit-orange))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
